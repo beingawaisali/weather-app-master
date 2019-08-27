@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/367a320177.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+
+<body>
+
+    <section id="body">
+        <section id="weather-main">
+            <section id="weather-top">
+                <div id="top-1">
+                    <div id="search-div">
+                        <input type="text" placeholder="Search City here....">
+                        <button onclick="showWeather()">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <div id="sun-div">
+                        <div id="sun-img">
+                            <img src="images/sun.gif" alt="sun image">
+                        </div>
+                        <div id="sun-text">
+                            <span>Hi, I am Mr Sunny.
+                                <article id="mr-sunny-says">I will show your Current Weather (;</article>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div id="top-2">
+                    <div id="today-forcast">
+                        <div>
+                            <img src="" class="weather-icon">
+                            <p id="temprature">28°c</p>
+                        </div>
+                        <div>
+                            <span id="city-name">Karachi,PK</span>
+                            <span id="weather">Sunny</span>
+                            <span id="weather-description">haze</span>
+                            <span id="wind-speed">5.2 wind speed</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section id="forcast-section">
+                <div id="day-2">
+                    <h2>Karachi</h2>
+                    <p>28</p>
+                    <span>Cloudy</span>
+                </div>
+                <div id="day-3">
+                    <h2>Karachi</h2>
+                    <p>28</p>
+                    <span>Cloudy</span>
+                </div>
+                <div id="day-4">
+                    <h2>Karachi</h2>
+                    <p>28</p>
+                    <span>Cloudy</span>
+                </div>
+                <div id="day-5">
+                    <h2>Karachi</h2>
+                    <p>28</p>
+                    <span>Cloudy</span>
+                </div>
+                <div id="day-6">
+                    <h2>Karachi</h2>
+                    <p>28</p>
+                    <span>Cloudy</span>
+                </div>
+            </section>
+
+        </section>
+
+    </section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
