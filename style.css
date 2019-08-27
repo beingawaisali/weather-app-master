@@ -1,0 +1,195 @@
+body{
+    margin: 0px;
+    font-family: 'Lexend Deca', sans-serif;
+    background: url(images/background-images/cloudy.gif);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 97vh; */
+    /* width: 100%; */
+    /* padding: 9px 0px; */
+}
+#body{
+    margin: 0px;
+    background: url(images/background-images/cloudy.gif);
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* height: 97vh; */
+    width: 100%;
+    padding: 9px 0px;
+    background: url(img/sun.jpg) no-repeat center center fixed;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* padding-bottom: 100px; */
+}
+
+#weather-main{
+    background: rgb(255, 255, 255, 0.2);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    display: flex;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    margin-bottom: 0px
+}
+#weather-top{
+    /* background: rgb(255, 255, 255, 0.2); */
+    /* margin: 20px; */
+    /* padding: 20px; */
+    /* border-radius: 25px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+#top-1{
+    margin: 15px 10px;
+}
+#top-2{
+    width: 500px;
+    margin: 0px 10px;
+}
+
+
+#search-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+input{
+    height: 35px;
+    width: 400px;
+    padding: 3px;
+    padding-left: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    border-right: none;
+    border-radius: 5px 0px 0px 5px;
+}
+input::placeholder{
+    font-size: 1.1em;
+}
+button{
+    /* margin-left: -5px; */
+    border-left: none;
+    height: 43px;
+    padding: 3px;
+    border: 1px solid black;
+    width: 50px;
+    font-size: 1.2em;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#sun-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 620px; */
+    /* grid-template-columns: repeat(auto-fit, minmax(300px)); */
+    /* grid-column: auto */
+    flex-wrap: wrap;
+}
+#sun-img{
+    /* width: 300px; */
+}
+#sun-img img{
+    width: 250px;
+    margin: 0px;
+}
+#sun-text span{
+    font-size: 1.3em;
+    color: white;
+    text-shadow: 0px 0px 10px black;
+    line-height: 35px;
+}
+#sun-text{
+    /* width: 300px; */
+    margin-top: 30px;
+    border: 2px solid white;
+    padding: 7px;
+    box-shadow: 0px 0px 5px black;
+}
+
+#today-forcast{
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 5px black;
+}
+
+#today-forcast div{
+    display: flex;
+    justify-content: left;
+    align-items: left;   
+    padding: 20px 0px;
+}
+#today-forcast div p{
+    color: white;
+    font-size: 1.5em;
+}
+#today-forcast #temprature{
+    font-size: 2.3em;
+    text-shadow: 0px 0px 10px black;
+}
+
+#today-forcast div span{
+    color: white;
+    font-size: 1.3em;
+    text-shadow: 0px 0px 10px black;
+    line-height: 25px;
+}
+#today-forcast div:nth-child(2){
+    flex-direction: column;
+}
+
+
+
+/* Forcast Section */
+
+#forcast-section{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    flex-wrap: wrap;width: 100%;
+    margin-top: 20px;
+}
+
+#forcast-section div{
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    text-shadow: 0px 0px 10px black;
+    box-shadow: 0px 0px 10px black;
+}
+
+
+@media only screen and (min-width:300px) and (max-width:530px){
+input{
+    width: 90%;
+}
+#search-div{
+    width: 100%;
+}
+#weather-main{
+    margin: 5px;
+}
