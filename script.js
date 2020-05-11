@@ -106,6 +106,12 @@ let showWeather = () => {
             document.getElementById("weather").innerHTML = currentWeather;
             document.getElementById("weather-description").innerHTML = weatherInfo;
             document.getElementById("wind-speed").innerHTML = windSpeed + " wind speed";
+        
+//         Correct City Name
+        
+            if(cityName != CountryName){
+                alert(`${cityName} is not found`)
+            };
 
 
             // Get background Images according to weather
