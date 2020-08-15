@@ -7,7 +7,7 @@ Waether App using Axios and openweatherapi.com
 
 Link:
 
-https://awais-malik716.github.io/weather-app-master/
+https://beingawaisali.github.io/weather-app-master/
 
 
 
